@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nando\\source\\repos\\TI2_ColecaoMusica\\Colecao_Musica\\Colecao_Musica.csproj": {}
+    "C:\\Users\\User\\Desktop\\IPT\\TI2\\Project\\MusicaAPI\\Colecao_Musica.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nando\\source\\repos\\TI2_ColecaoMusica\\Colecao_Musica\\Colecao_Musica.csproj": {
+    "C:\\Users\\User\\Desktop\\IPT\\TI2\\Project\\MusicaAPI\\Colecao_Musica.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nando\\source\\repos\\TI2_ColecaoMusica\\Colecao_Musica\\Colecao_Musica.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\IPT\\TI2\\Project\\MusicaAPI\\Colecao_Musica.csproj",
         "projectName": "Colecao_Musica",
-        "projectPath": "C:\\Users\\Nando\\source\\repos\\TI2_ColecaoMusica\\Colecao_Musica\\Colecao_Musica.csproj",
-        "packagesPath": "C:\\Users\\Nando\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nando\\source\\repos\\TI2_ColecaoMusica\\Colecao_Musica\\obj\\",
+        "projectPath": "C:\\Users\\User\\Desktop\\IPT\\TI2\\Project\\MusicaAPI\\Colecao_Musica.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\IPT\\TI2\\Project\\MusicaAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Nando\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

@@ -118,8 +118,9 @@ namespace Colecao_Musica.Controllers.API
             // esta instrução é apenas usada para não se criar uma exceção no código
             // deverá ser apagada quando se concretizar o trabalho real
             albuns.Cover = "";
-
+           
             _context.Albuns.Add(albuns);
+
             await _context.SaveChangesAsync();
 
             return CreatedAtAction("GetAlbuns", new { id = albuns.Id }, albuns);
