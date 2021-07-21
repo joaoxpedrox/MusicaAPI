@@ -7,7 +7,6 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Colecao_Musica.Data;
 using Colecao_Musica.Models;
-using System.Linq;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
@@ -105,7 +104,6 @@ namespace Colecao_Musica.Controllers
         {
             //Identifica o Id do artista autenticado
             int ArtistaId = (await _context.Artistas.Where(a => a.UserNameId == _userManager.GetUserId(User)).FirstOrDefaultAsync()).Id;
-
             ViewBag.ListaAlbuns = _context.Albuns
                 .Where(a => a.ArtistasFK == ArtistaId)
                 .OrderBy(m => m.Titulo).ToList();

@@ -7493,19 +7493,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\João Almeida\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\IPT\\TI2\\Project\\MusicaAPI\\Colecao_Musica.csproj",
+      "projectUniqueName": "C:\\Users\\João Almeida\\Desktop\\TI2\\Git\\TI2_ColecaoMusica_API\\Colecao_Musica\\MusicaAPI\\Colecao_Musica.csproj",
       "projectName": "Colecao_Musica",
-      "projectPath": "C:\\Users\\User\\Desktop\\IPT\\TI2\\Project\\MusicaAPI\\Colecao_Musica.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\IPT\\TI2\\Project\\MusicaAPI\\obj\\",
+      "projectPath": "C:\\Users\\João Almeida\\Desktop\\TI2\\Git\\TI2_ColecaoMusica_API\\Colecao_Musica\\MusicaAPI\\Colecao_Musica.csproj",
+      "packagesPath": "C:\\Users\\João Almeida\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\João Almeida\\Desktop\\TI2\\Git\\TI2_ColecaoMusica_API\\Colecao_Musica\\MusicaAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\João Almeida\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

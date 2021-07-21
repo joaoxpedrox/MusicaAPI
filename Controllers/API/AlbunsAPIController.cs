@@ -66,6 +66,7 @@ namespace Colecao_Musica.Controllers.API
                      CoverAlbum = a.Cover,
                      GeneroAlbum = a.Genero.Designacao,
                      NomeArtista = a.Artista.Nome
+                    
 
                  })
                 .FirstOrDefaultAsync();
@@ -112,7 +113,7 @@ namespace Colecao_Musica.Controllers.API
         // POST: api/AlbunsAPI
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<Albuns>> PostAlbuns(Albuns albuns)
+        public async Task<ActionResult<Albuns>> PostAlbuns([FromForm]Albuns albuns)
         {
 
             // esta instrução é apenas usada para não se criar uma exceção no código

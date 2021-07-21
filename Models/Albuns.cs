@@ -30,7 +30,7 @@ namespace Colecao_Musica.Models
         /// <summary>
         /// Titulo de um album
         /// </summary>
-        [Required(ErrorMessage = "Preenchimento obrigatório")]
+       [Required(ErrorMessage = "Preenchimento obrigatório")]
         //[StringLength(50, ErrorMessage = "O {0} não deve ter mais que {1} caracteres.")]
         [Display(Name = "Título")]
         public string Titulo { get; set; }
@@ -47,7 +47,7 @@ namespace Colecao_Musica.Models
         /// <summary>
         /// Numero total de faixas de um album
         /// </summary>
-        [Required(ErrorMessage = "Preenchimento obrigatório")]
+      [Required(ErrorMessage = "Preenchimento obrigatório")]
         //[RegularExpression("[1-9][0-9]?", ErrorMessage = "Insira o numero de faixas do album")]
         //[StringLength(2, MinimumLength = 1)]
         [Display(Name = "Total de faixas")]
@@ -80,8 +80,9 @@ namespace Colecao_Musica.Models
         //Para facilitar o programador a criar os controlers as linhas seguintes
         
         [ForeignKey(nameof(Genero))] //Anotador para o Entity Framework (com nome do objeto em vez do objeto
-        [Required(ErrorMessage = "Seleção obrigatória")]
+      [Required(ErrorMessage = "Seleção obrigatória")]
         //[Display(Name = "Género")]
+    //DEVE SER SINGULAR, GENEROFK e ARTISTAFK, control R R 
         public int GenerosFK { get; set; }      //FK para Generos np SGBD(SQL) 
         public Generos Genero { get; set; }     //FK para Generos no C#
 
@@ -99,7 +100,7 @@ namespace Colecao_Musica.Models
         //**********************************************************************
         //Criar a lista de Musicas a que um Album está associado
         //**********************************************************************
-        [Required(ErrorMessage = "É obrigatório escolher uma música.")]
+        //[Required(ErrorMessage = "É obrigatório escolher uma música.")]
         public ICollection<Musicas> ListaDeMusicas { get; set; }
     }
 }//Fim da classe Albuns
